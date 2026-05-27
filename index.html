@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>像素平台跳跃</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <h1>像素平台跳跃</h1>
+      <p class="hint">
+        操作：←/→ 或 A/D 移动，↑ / W / 空格 跳跃。收集金币，躲避敌人与尖刺，抵达终点旗帜！
+      </p>
+      <canvas id="gameCanvas" width="960" height="540" aria-label="平台跳跃游戏画布"></canvas>
+      <div class="ui-row">
+        <button id="restartBtn" type="button">重新开始</button>
+      </div>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
